@@ -47,8 +47,11 @@ h1 {
       font-size:xx-large;
       font-size: 15px;
   }
-  table{
-      border-color: #020000;
-  }
 
-  
+    /* Section A */
+
+    #section-a {
+        background: #e32828;
+        color: #333;
+        padding-bottom: 2em;
+      }
