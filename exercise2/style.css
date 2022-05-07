@@ -1,9 +1,21 @@
-body{
+body {
     margin: 0;
-    font-family: 'Water Brush', cursive;
-    background: rgb(245, 202, 237);
-    color: rgb(12, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: rgb(152, 149, 149);
+    color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
+}
+
+
+header{
+    margin: 0;
+    font-family: 'Water Brush', cursive;
+    background: rgb(241, 188, 245);
+    color: rgb(12, 12, 12);
+    font-size: 2em;
+    line-height: 1.5;
+    text-align: center;
+    border: 1cm; color: black;
 }
