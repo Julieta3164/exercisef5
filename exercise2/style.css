@@ -70,6 +70,7 @@ img {
     display: block;
     width: 200px;
     height: 200px;
+    padding-left: 3vw
 }
 
 li {
@@ -90,4 +91,42 @@ h2{
     font-family: 'Water Brush', cursive;
     font-size: xx-large;
     font-size: 50px;
+}
+
+img {
+    background-size: auto ;
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding-left: 3vw
+}
+
+#section-x li {
+    margin-bottom: 1em;
+    background: rgb(232, 207, 244);
+    color: #333;
+    width: 100%;
+}
+
+#section-x ul {
+    list-style: none;
+    margin: 100;
+    padding: 100;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-x p{
+    margin: 10px;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+} 
+
+#section-x img{
+    float: left;
+    background-color:rgb(232, 207, 244);
+    font-family: monospace;
+    font-size: 400%;
 }
