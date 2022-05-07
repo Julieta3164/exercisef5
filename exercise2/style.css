@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(152, 149, 149);
-    color: #fff;
+    color: rgb(5, 0, 0);
     font-size: 1.1em;
     line-height: 1.5;
     text-align: center;
@@ -33,6 +33,7 @@ h1 {
     min-height: 450px;
     color: #020000;
     text-align: center;
+    padding: auto;
   }
   h1{
       font-size:xx-large;
@@ -40,8 +41,14 @@ h1 {
       margin: 50px;
       padding: 0%;
   }
+  
   p {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size:xx-large;
       font-size: 15px;
   }
+  table{
+      border-color: #020000;
+  }
+
+  
