@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    font-family: 'Water Brush', cursive;
+    background: rgb(245, 202, 237);
+    color: rgb(12, 12, 12);
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
