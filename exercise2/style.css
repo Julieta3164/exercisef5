@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: rgb(152, 149, 149);
     color: rgb(5, 0, 0);
@@ -8,23 +7,28 @@ body {
     text-align: center;
 }
 
-header{
+#Headboard .headpag {
     position: absolute;
-    background: rgb(0, 0, 0) url(img/imagencabecera.jpeg);
+    background: #333 url(img/imagencabecera.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 450px;
+    z-index: -1;
+    opacity: 0.4;
 }
+
 h1 {
     display: block;
-    font-size: 2em;
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    font-size: 100px;
+    margin: 50px;
+    padding: 0%;
 }
 
 #Headboard {
@@ -34,24 +38,50 @@ h1 {
     color: #020000;
     text-align: center;
     padding: auto;
-  }
-  h1{
-      font-size:xx-large;
-      font-size: 100px;
-      margin: 50px;
-      padding: 0%;
-  }
+}
   
-  p {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      font-size:xx-large;
-      font-size: 15px;
-  }
+#Headboard p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    font-size: 15px;
+}
 
-    /* Section A */
+table {
+    border: #020000;
+}
 
-    #section-a {
-        background: #e32828;
-        color: #333;
-        padding-bottom: 2em;
-      }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+.contentwrap {
+    grid-column: 2/4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+main {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+    width: 31%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
