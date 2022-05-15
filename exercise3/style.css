@@ -1,0 +1,117 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;    
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-spacing: 0px;
+}
+
+.contenedor { 
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-image: url(fondo.png);
+}
+p{
+    padding: 2px;
+    margin: 1px;
+}
+.txt{
+display:flex;
+justify-content: center;
+}
+td:hover{
+    opacity: 50%;
+}
+.green{
+    background-color:green;
+}
+
+.greentxt{
+    color:green;
+}
+
+.black{
+    background-color: black;
+}
+
+.teal{
+    background-color: teal;
+}
+.tealtxt{
+    color: teal;
+}
+
+.blue{
+    background-color: blue;
+}
+.bluetxt{
+    color: blue;
+}
+.navy{
+    background-color: navy;
+}
+.navytxt{
+    color: navy;
+}
+.lime{
+    background-color: lime;
+}
+.limetxt{
+    color: lime;
+}
+.white{
+    background-color: white;
+}
+.whitetxt{
+    color: white;
+}
+.purple{
+    background-color: purple;
+}
+.purpletxt{
+    color: purple;
+}
+.yellow{
+    background-color: yellow;
+}
+.yellowtxt{
+    color: yellow;
+}
+.olive{
+    background-color: olive;
+}
+.olivetxt{
+    color: olive;
+}
+.red {
+    background-color: red;
+}
+.redtxt{
+    color: red;
+}
+.gray{
+    background-color: gray;
+}
+.graytxt{
+    color: gray;
+}
+.fuchsia{
+    background-color: fuchsia;
+}
+.fuchsiatxt{
+    color: fuchsia;
+}
+.aquatxt{
+    color: aqua;
+}
+.silver{
+    color: silver;
+}
