@@ -1,12 +1,42 @@
-body{
+body {
     margin: 80px;
 }
 
-#contenedor{
+#contenedor {
     background-color: gray;
-    width: 50%;
+    width: 80%;
+    height: 90%;
 }
 
-img{
-    width: 80px;
+.cuadro {
+    display: flex;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+h2 {
+    background-color: rgb(77, 72, 72);
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+
+.color {
+    color: red;
+}
+
+.sombra {
+    background-color: white;
+}
+
+img {
+    width: 300px;
+    height: 250px;
 }
